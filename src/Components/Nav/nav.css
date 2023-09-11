@@ -1,0 +1,18 @@
+#nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to top, #3db8b8, #959c95);
+    height: 80px;
+    width: 100%;
+    box-shadow: -10px 1px 50px black;
+}
+
+#nav>a>img {
+    height: 60px;
+    border-radius: 100%;
+    transition: .2s;
+}
+#nav>a>img:hover{
+    transform: scale(1.2) rotate(360deg);
+}

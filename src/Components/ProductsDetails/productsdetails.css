@@ -1,0 +1,29 @@
+#product>img {
+    height: 55vh;
+    width: 60vh;
+    margin: 65px 70vh;
+}
+
+#product>p {
+    margin-left: 12vh;
+}
+#product>h2 {
+    margin: 5vh;
+}
+#smprd {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#smprd>div>a>img {
+    height: 30vh;
+    width: 50vh;
+    margin: 80px;
+}
+
+#smprd>div>h2{
+    text-align: center;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
